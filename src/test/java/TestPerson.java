@@ -1,3 +1,4 @@
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 import lambdaslab.Person;
 import org.junit.Assert;
 import org.junit.Test;
@@ -31,4 +32,23 @@ public class TestPerson {
         Assert.assertEquals(expectedEmail, actualEmail);
         Assert.assertEquals(expectedBirthday, actualBirthday);
     }
+
+
+    @Test
+    public void TestPersonName(){
+
+        //given
+        Person person = new Person();
+        String expected = "eddie";
+        //when
+        String actual = person.getName();
+        //then
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void TestPersonAge(){
+
+    }
+
 }

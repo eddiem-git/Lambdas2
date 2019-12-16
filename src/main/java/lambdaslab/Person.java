@@ -9,7 +9,7 @@ public class Person {
         MALE, FEMALE
     }
 
-    String name;
+    String name = "eddie";
     LocalDate birthday;
     Sex gender;
     String emailAddress;
@@ -17,11 +17,19 @@ public class Person {
     public Person () {}
 
     public Person (String name, Sex gender, LocalDate birthday, String emailAddress) {
+        this.name =name;
+        this.gender = gender;
+        this.birthday = birthday;
+        this.emailAddress = emailAddress;
+    }
+
+    public Person (Sex gender, LocalDate birthday, String emailAddress) {
         this.name = name;
         this.gender = gender;
         this.birthday = birthday;
         this.emailAddress = emailAddress;
     }
+
 
     public LocalDate getNow() {
         return test ? LocalDate.of(2019, 12, 1) : LocalDate.now();

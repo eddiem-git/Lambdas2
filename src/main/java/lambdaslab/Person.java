@@ -2,21 +2,25 @@ package lambdaslab;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Person {
 
     public enum Sex {
         MALE, FEMALE
     }
-
     String name = "eddie";
     LocalDate birthday;
     Sex gender;
     String emailAddress;
     Boolean test = false;
-    public Person () {}
 
-    public Person (String name, Sex gender, LocalDate birthday, String emailAddress) {
+    public Person () {
+        new ArrayList<Person>();
+    }
+
+    public Person (String name, LocalDate birthday,  Sex gender, String emailAddress) {
         this.name =name;
         this.gender = gender;
         this.birthday = birthday;
@@ -29,7 +33,6 @@ public class Person {
         this.birthday = birthday;
         this.emailAddress = emailAddress;
     }
-
 
     public LocalDate getNow() {
         return test ? LocalDate.of(2019, 12, 1) : LocalDate.now();

@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0d960318-fe32-4683-a17b-047af973aaab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambdaslab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdaslab/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambdaslab/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdaslab/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSearches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lambdaslab/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lambdaslab/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lambdaslab/Person$Sex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lambdaslab/Person$Sex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lambdaslab/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lambdaslab/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testSearches.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575748856535</updated>
       <workItem from="1575748861818" duration="3919000" />
-      <workItem from="1576454686877" duration="7018000" />
+      <workItem from="1576454686877" duration="8727000" />
     </task>
     <servers />
   </component>

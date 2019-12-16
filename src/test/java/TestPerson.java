@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.time.LocalDate;
+import java.time.Period;
 
 public class TestPerson {
 
@@ -17,7 +18,7 @@ public class TestPerson {
         String expectedEmail = "wheresWaldo@gmail.com";
 
         // When
-        Person person = new Person(expectedName, expectedSex, expectedBirthday, expectedEmail);
+        Person person = new Person(expectedName, expectedBirthday, expectedSex, expectedEmail);
 
         // Then
         String actualName = person.getName();
@@ -48,7 +49,11 @@ public class TestPerson {
 
     @Test
     public void TestPersonAge(){
+        //given
+        Person person = new Person();
+        //when
 
+        //then
     }
 
 }

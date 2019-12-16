@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d960318-fe32-4683-a17b-047af973aaab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Searches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SocialNetworking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSearches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSocialNetworking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdaslab/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdaslab/CheckPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdaslab/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Searches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambdaslab/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SocialNetworking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSearches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSearches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSocialNetworking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lambdas.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +42,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,17 +60,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Lambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambdas" />
+  <component name="RunManager" selected="JUnit.TestPerson">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdaslab.Main" />
       <module name="Lambdas2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambdas2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPerson" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lambdas" />
+        <item itemvalue="JUnit.TestPerson" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -72,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575748856535</updated>
-      <workItem from="1575748861818" duration="2853000" />
+      <workItem from="1575748861818" duration="3919000" />
+      <workItem from="1576454686877" duration="5872000" />
     </task>
     <servers />
   </component>
@@ -84,7 +107,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
